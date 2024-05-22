@@ -1,0 +1,49 @@
+.benefits {
+  padding: 100px 10px;
+}
+
+.content {
+  margin: 0;
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.card {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px !important;
+}
+
+.card h1 {
+  text-align: end;
+  font-weight: bold;
+  font-size: 80px;
+}
+
+.card .arrowbtn {
+  width: 54px;
+  height: 54px;
+  background-color: #eeee;
+  align-self: end;
+}
+
+@media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
+  .content {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+  .content {
+    grid-template-columns: auto;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+}

@@ -1,0 +1,23 @@
+.content li {
+  border: 1px solid #d2d2d2;
+}
+
+.content .grid {
+  display: grid !important;
+  grid-template-columns: repeat(2, calc(50% - 15px));
+  gap: 30px;
+}
+
+.content li > span {
+  min-width: 128px;
+}
+
+@media only screen and (max-width: 993px) {
+  .content .grid {
+    grid-template-columns: auto;
+  }
+  .content li {
+    flex-direction: column;
+    align-items: start !important;
+  }
+}

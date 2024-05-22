@@ -1,0 +1,26 @@
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 45%);
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 12px;
+  margin: 50px auto;
+  border-bottom: 1px solid #6c757d29;
+}
+.hero h1 {
+  color: #262626;
+  font-size: 50px;
+}
+
+.hero p {
+  color: #59595a;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 980px) {
+  /*Big smartphones [426px -> 600px]*/
+  .hero {
+    grid-template-columns: auto;
+    row-gap: 25px;
+  }
+}

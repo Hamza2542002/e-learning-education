@@ -1,0 +1,107 @@
+.header button {
+  background-color: white;
+  height: -moz-fit-content;
+  font-size: 15px;
+  height: fit-content;
+  align-self: center;
+  background-color: #5a595933;
+}
+
+.header .text {
+  width: 80%;
+}
+.header .text p {
+  color: #59595a;
+  font-weight: 500;
+}
+.header .text h5 {
+  font-weight: bold;
+}
+.cardInfo {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+
+.cardInfo p {
+  margin: 0;
+  justify-self: end;
+  font-weight: bold;
+}
+
+.cardInfo span {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 7px;
+  margin-right: 15px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  color: #4c4c4d;
+}
+.card {
+  padding: 35px;
+  margin-bottom: 50px;
+}
+
+.curriculum {
+  border: 1px solid #eee;
+}
+
+.curriculum h5 {
+  font-weight: 700;
+}
+
+.curriculum h1 {
+  font-weight: 700;
+}
+.curriculum p {
+  color: #333333;
+  font-weight: 500;
+}
+
+.curriculum div div {
+  position: relative;
+  width: 16%;
+}
+
+.curriculum div div::after {
+  content: "";
+  height: 100%;
+  width: 1px;
+  background-color: #eee;
+  position: absolute;
+  top: 0;
+  right: -17px;
+}
+.curriculum div div:last-child::after {
+  width: 0;
+}
+
+.info div {
+  padding: 0;
+}
+@media only screen and (max-width: 780px) {
+  .header .text {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .curriculum div {
+    flex-direction: column;
+  }
+  .curriculum div div {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    padding: 10px 10px 25px 10px;
+  }
+  .curriculum div div:last-child {
+    border: none;
+  }
+  .curriculum div div::after {
+    width: 0;
+  }
+}

@@ -1,0 +1,88 @@
+.content {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+
+.form {
+  border-right: 1px solid #f7f7f8;
+  align-self: center;
+  width: 70%;
+  overflow: hidden;
+}
+
+.contacts {
+  width: 31%;
+}
+
+.form input {
+  background-color: #eeee;
+  padding: 10px;
+}
+
+.form label {
+  color: #262626;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.form input::placeholder {
+  color: #656567;
+}
+
+.form div:last-child {
+  text-align: center;
+}
+
+.form button {
+  background-color: #ff9500;
+  color: white;
+}
+
+.form button:hover {
+  background-color: #ff9500;
+  border-color: transparent;
+  color: white;
+}
+
+.card {
+  background-color: #eeee;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card .mes {
+  font-size: 14px;
+}
+
+.card span ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 0px 25px;
+}
+
+@media only screen and (max-width: 993px) {
+  .content {
+    flex-direction: column;
+    align-content: center;
+  }
+  .contacts {
+    width: 348px;
+    align-self: center;
+  }
+  .form {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #eee;
+    align-self: center;
+  }
+}
+
+@media only screen and (max-width: 773px) {
+  .form {
+    padding: 3rem 1rem !important;
+  }
+}

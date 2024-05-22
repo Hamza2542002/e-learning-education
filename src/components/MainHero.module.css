@@ -1,0 +1,59 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .container h1 {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 30px;
+  width: fit-content;
+  border-radius: 10px;
+}
+
+.main .container {
+  padding: 100px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main .container h1 svg {
+  width: 40px;
+  height: 40px;
+  background-color: #fff4e5;
+  padding: 7px;
+  margin-right: 10px;
+}
+.main .container {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.textContainer {
+  margin-top: 25px;
+}
+
+.btnContainer {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.btnContainer button {
+  padding: 13px 34px;
+  border-radius: 10px;
+}
+.btnContainer .btn {
+  color: var(--absolute-white);
+  background-color: var(--absolute-orange);
+  margin-right: 20px;
+}
+
+.textContainer p {
+  font-size: 18px;
+}

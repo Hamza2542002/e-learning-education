@@ -1,0 +1,17 @@
+nav .btnContainer button {
+  background-color: transparent;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+nav .btnContainer .btn,
+.btn {
+  padding: 13px 34px;
+  color: var(--absolute-white);
+  background-color: var(--absolute-orange);
+}

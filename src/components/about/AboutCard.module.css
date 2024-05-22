@@ -1,0 +1,31 @@
+.content {
+  margin: 0;
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.card span {
+  width: fit-content;
+  padding: 10px;
+  background-color: #fff9f0;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.card .text p {
+  font-weight: 500;
+  font-size: 14px;
+}
+.card .text h5 {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 773px) {
+  .content {
+    grid-template-columns: auto;
+    gap: 45px;
+  }
+}

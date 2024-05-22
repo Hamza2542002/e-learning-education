@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.header p {
+  font-weight: 500;
+  font-size: 14px;
+}
+@media only screen and (max-width: 825px) {
+  .header {
+    flex-direction: column;
+    align-items: self-start;
+    gap: 25px;
+  }
+  .content {
+    width: 100%;
+  }
+}

@@ -1,0 +1,53 @@
+.testimonials {
+  padding: 100px 0;
+}
+.content {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 30px;
+}
+.card {
+  color: #4c4c4d;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+.cardBody {
+  padding: 25px;
+}
+.cardFooter {
+  background-color: #fcfcfd;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: inherit;
+}
+
+.cardFooter div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #333333;
+  font-weight: 500;
+}
+
+p {
+  margin: 0;
+}
+
+.cardFooter .btn {
+  padding: 0.8rem;
+  background-color: #f7f7f8;
+  border-radius: 10px;
+  color: #262626;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 780px) {
+  /*Big smartphones [426px -> 600px]*/
+  .content {
+    grid-template-columns: auto;
+  }
+}

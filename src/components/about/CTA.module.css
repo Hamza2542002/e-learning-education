@@ -1,0 +1,54 @@
+.cta {
+  background-color: white;
+  position: relative;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.cta .text {
+  position: relative;
+  width: 60%;
+}
+
+.cta .text h1 span {
+  color: #ff9500;
+}
+
+.cta .btn {
+  background-color: #ff9500;
+  color: white;
+}
+
+.img {
+  position: absolute;
+  left: 60%;
+  background-image: url("../../../public/Abstract\ Design.png");
+  height: 327px;
+  width: 375px;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 1140px) {
+  .cta .img {
+    left: 50%;
+  }
+}
+@media only screen and (max-width: 993px) {
+  .cta {
+    flex-direction: column;
+    align-items: start;
+    padding-bottom: 3rem !important;
+  }
+  .cta .text {
+    width: 100%;
+  }
+  .cta .img {
+    display: none;
+  }
+}

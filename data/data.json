@@ -1,0 +1,567 @@
+{
+  "courses": [
+    {
+      "id": 0,
+      "generlInfo": {
+        "name": "Web Design Fundamentals",
+        "title": "Learn the fundamentals of web design, including HTML, CSS, andresponsive design principles. Develop the skills to create visuallyappealing and user-friendly websites.",
+        "duration": 4,
+        "level": "Beginner",
+        "owner": "john Smith",
+        "curriculum": [
+          "Introduction to HTML",
+          "Styling with CSS",
+          "Introduction to Responsive Design",
+          "Design Principles for Web",
+          "Building a Basic Website"
+        ],
+        "images": ["Image (12).png", "Image (11).png", "Image (10).png"],
+        "img": "asstes/courses/Image.png"
+      }
+    },
+    {
+      "id": 1,
+      "generlInfo": {
+        "name": "UI/UX Design",
+        "title": "Master the art of creating intuitive user interfaces (UI) and enhancing user experiences (UX). Learn design principles, wireframing, prototyping, and usability testing techniques.",
+        "duration": 6,
+        "level": "Intermediate",
+        "owner": "Emily Johnson",
+        "curriculum": [
+          "Introduction to UI/UX Design",
+          "User Research and Personas",
+          "Wireframing and Prototyping",
+          "Visual Design and Branding",
+          "Usability Testing and Iteration"
+        ],
+        "images": ["Image (13).png", "Image (14).png", "Image (15).png"],
+        "img": "asstes/courses/Image (1).png"
+      }
+    },
+    {
+      "id": 2,
+      "generlInfo": {
+        "name": "Mobile App Development",
+        "title": "Dive into the world of mobile app development. Learn to build native iOS and Android applications using industry-leading frameworks like Swift and Kotlin.",
+        "duration": 8,
+        "level": "Intermediate",
+        "owner": "David Johnson",
+        "curriculum": [
+          "Introduction to UI/UX Design",
+          "User Research and Personas",
+          "Wireframing and Prototyping",
+          "Visual Design and Branding",
+          "Usability Testing and Iteration"
+        ],
+        "images": ["Image (16).png", "Image (17).png", "Image (18).png"],
+        "img": "asstes/courses/Image (2).png"
+      }
+    },
+    {
+      "id": 3,
+      "generlInfo": {
+        "name": "Graphic Design for Beginners",
+        "title": "Discover the fundamentals of graphic design, including typography, color theory, layout design, and image manipulation techniques. Create visually stunning designs for print and digital media.",
+        "duration": 10,
+        "level": "Beginner",
+        "owner": "Sraah Johnson",
+        "curriculum": [
+          "Introduction to Graphic Design",
+          "Typography and Color Theory ",
+          "Layout Design and Composition",
+          "Image Editing and Manipulation",
+          "Designing for Print and Digital Media"
+        ],
+        "images": ["Image (19).png", "Image (20).png", "Image (21).png"],
+        "img": "asstes/courses/Image (3).png"
+      }
+    },
+    {
+      "id": 4,
+      "generlInfo": {
+        "name": "Front-End Web Development",
+        "title": "Become proficient in front-end web development. Learn HTML, CSS, JavaScript, and popular frameworks like Bootstrap and React. Build interactive and responsive websites.",
+        "duration": 10,
+        "level": "Intermediate",
+        "owner": "Michael Adam",
+        "curriculum": [
+          "HTML Fundamentals",
+          "CSS Styling and Layouts",
+          "JavaScript Basics",
+          "Building Responsive Websites",
+          "Introduction to Bootstrap and React"
+        ],
+        "images": ["Image (22).png", "Image (23).png", "Image (24).png"],
+        "img": "asstes/courses/Image (4).png"
+      }
+    }
+  ],
+  "coursesDetails": [
+    {
+      "id": 0,
+      "courseInfo": {
+        "courseName": "Web Design Fundamentals Course",
+        "courseDesc": "Welcome to our Web Design Fundamentals course! This comprehensive program will introduce you to the core concepts and techniques of web design. From structuring content with HTML to styling with CSS and ensuring responsiveness across devices, you'll gain the skills needed to create stunning websites. Below is an overview of the curriculum",
+        "sections": [
+          {
+            "name": "Introduction to Web Design",
+            "lectures": [
+              {
+                "lecName": "Understanding Web Design Principles",
+                "lecDuration": "1 Hour"
+              },
+              {
+                "lecName": "Exploring Different Types of Websites",
+                "lecDuration": "45 Minutes"
+              },
+              {
+                "lecName": "The Importance of User Experience",
+                "lecDuration": "1 Hour"
+              }
+            ]
+          },
+          {
+            "name": "HTML Basics",
+            "lectures": [
+              {
+                "lecName": "Introduction to HTML Structure",
+                "lecDuration": "1.5 Hours"
+              },
+              {
+                "lecName": "HTML Elements and Tags",
+                "lecDuration": "1 Hour"
+              },
+              {
+                "lecName": "Semantic HTML5",
+                "lecDuration": "1 Hour"
+              }
+            ]
+          },
+          {
+            "name": "CSS Styling",
+            "lectures": [
+              {
+                "lecName": "Introduction to CSS",
+                "lecDuration": "1.5 Hours"
+              },
+              {
+                "lecName": "CSS Selectors and Properties",
+                "lecDuration": "1 Hour"
+              },
+              {
+                "lecName": "Styling Text and Images",
+                "lecDuration": "1 Hour"
+              }
+            ]
+          },
+          {
+            "name": "Responsive Design",
+            "lectures": [
+              {
+                "lecName": "Understanding Responsive Design Principles",
+                "lecDuration": "1.5 Hours"
+              },
+              {
+                "lecName": "Media Queries and Flexible Layouts",
+                "lecDuration": "1 Hour"
+              },
+              {
+                "lecName": "Mobile-First Design Approach",
+                "lecDuration": "1 Hour"
+              }
+            ]
+          },
+          {
+            "name": "Typography and Layout",
+            "lectures": [
+              {
+                "lecName": "Choosing Fonts for the Web",
+                "lecDuration": "1 Hour"
+              },
+              {
+                "lecName": "Layout Design Techniques",
+                "lecDuration": "1.5 Hours"
+              },
+              {
+                "lecName": "Grid Systems and Page Structure",
+                "lecDuration": "1 Hour"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "courseInfo": {
+        "courseName": "UI/UX Design Course",
+        "courseDesc": "Welcome to our UI/UX Design course! This comprehensive program will equip you with the knowledge and skills to create exceptional user interfaces (UI) and enhance user experiences (UX). Dive into the world of design thinking, wireframing, prototyping, and usability testing. Below is an overview of the curriculum",
+        "sections": [
+          {
+            "name": "Introduction to UI/UX Design",
+            "lectures": [
+              {
+                "lecName": "Understanding UI/UX Design Principles",
+                "lecDuration": "45 Minutes"
+              },
+              {
+                "lecName": "Importance of User-Centered Design",
+                "lecDuration": "1 Hour"
+              },
+              {
+                "lecName": "The Role of UI/UX Design in Product Development",
+                "lecDuration": "45 Minutes"
+              }
+            ]
+          },
+          {
+            "name": "User Research and Analysis",
+            "lectures": [
+              {
+                "lecName": "Conducting User Research and Interviews",
+                "lecDuration": "1 Hour"
+              },
+              {
+                "lecName": "Analyzing User Needs and Behavior",
+                "lecDuration": "1 Hour"
+              },
+              {
+                "lecName": "Creating User Personas and Scenarios",
+                "lecDuration": "45 Minutes"
+              }
+            ]
+          },
+          {
+            "name": "Wireframing and Prototyping",
+            "lectures": [
+              {
+                "lecName": "Introduction to Wireframing Tools and Techniques",
+                "lecDuration": "1 Hour"
+              },
+              {
+                "lecName": "Creating Low-Fidelity Wireframes",
+                "lecDuration": "1 Hour"
+              },
+              {
+                "lecName": "Prototyping and Interactive Mockups",
+                "lecDuration": "45 Minutes"
+              }
+            ]
+          },
+          {
+            "name": "Visual Design and Branding",
+            "lectures": [
+              {
+                "lecName": "Color Theory and Typography in UI Design",
+                "lecDuration": "1 Hour"
+              },
+              {
+                "lecName": "Visual Hierarchy and Layout Design",
+                "lecDuration": "1 Hour"
+              },
+              {
+                "lecName": "Creating a Strong Brand Identity",
+                "lecDuration": "45 Minutes"
+              }
+            ]
+          },
+          {
+            "name": "Usability Testing and Iteration",
+            "lectures": [
+              {
+                "lecName": "Usability Testing Methods and Techniques",
+                "lecDuration": "1 Hour"
+              },
+              {
+                "lecName": "Analyzing Usability Test Results",
+                "lecDuration": "45 Minutes"
+              },
+              {
+                "lecName": "Iterating and Improving UX Designs",
+                "lecDuration": "45 Minutes"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "courseInfo": {
+        "courseName": "Mobile App Development Course",
+        "courseDesc": "Welcome to our Mobile App Development course! This program will equip you with the knowledge and skills to build mobile applications for iOS and Android platforms. From designing user interfaces to implementing backend services, you'll learn the complete app development lifecycle. Below is an overview of the curriculum",
+        "sections": [
+          {
+            "name": "Introduction to Mobile App Development",
+            "lectures": [
+              {
+                "lecName": "Overview of Mobile Platforms and Ecosystem",
+                "lecDuration": "1 Hour"
+              },
+              {
+                "lecName": "Understanding Mobile App Development Lifecycle",
+                "lecDuration": "1.5 Hours"
+              },
+              {
+                "lecName": "Exploring Cross-Platform Development Tools",
+                "lecDuration": "1 Hour"
+              }
+            ]
+          },
+          {
+            "name": "UI/UX Design for Mobile Apps",
+            "lectures": [
+              {
+                "lecName": "Design Principles for Mobile User Interfaces",
+                "lecDuration": "1.5 Hours"
+              },
+              {
+                "lecName": "Mobile Navigation Patterns and Gestures",
+                "lecDuration": "1 Hour"
+              },
+              {
+                "lecName": "Responsive Design for Various Screen Sizes",
+                "lecDuration": "1 Hour"
+              }
+            ]
+          },
+          {
+            "name": "iOS App Development with Swift",
+            "lectures": [
+              {
+                "lecName": "Introduction to iOS App Development",
+                "lecDuration": "1.5 Hours"
+              },
+              {
+                "lecName": "Swift Programming Language Basics",
+                "lecDuration": "1 Hour"
+              },
+              {
+                "lecName": "Building User Interfaces with UIKit",
+                "lecDuration": "1.5 Hours"
+              }
+            ]
+          },
+          {
+            "name": "Android App Development with Kotlin",
+            "lectures": [
+              {
+                "lecName": "Introduction to Android App Development",
+                "lecDuration": "1.5 Hours"
+              },
+              {
+                "lecName": "Kotlin Language Fundamentals",
+                "lecDuration": "1 Hour"
+              },
+              {
+                "lecName": "Working with Android Views and Layouts",
+                "lecDuration": "1.5 Hours"
+              }
+            ]
+          },
+          {
+            "name": "API Integration and Data Management",
+            "lectures": [
+              {
+                "lecName": "Consuming RESTful APIs in Mobile Apps",
+                "lecDuration": "1.5 Hours"
+              },
+              {
+                "lecName": "Handling User Authentication and Authorization",
+                "lecDuration": "1 Hour"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "courseInfo": {
+        "courseName": "Graphic Design for Beginners Course",
+        "courseDesc": "Welcome to our Graphic Design for Beginners course! This program is designed to introduce you to the fundamentals of graphic design. From understanding design principles to mastering essential design tools, you'll learn the basics needed to create visually appealing designs. Below is an overview of the curriculum",
+        "sections": [
+          {
+            "name": "Introduction to Graphic Design",
+            "lectures": [
+              {
+                "lecName": "Understanding Design Principles",
+                "lecDuration": "1 Hour"
+              },
+              {
+                "lecName": "Exploring Graphic Design History",
+                "lecDuration": "1 Hour"
+              },
+              {
+                "lecName": "Introduction to Design Software",
+                "lecDuration": "1 Hour"
+              }
+            ]
+          },
+          {
+            "name": "Typography and Layout",
+            "lectures": [
+              {
+                "lecName": "Basics of Typography",
+                "lecDuration": "1.5 Hours"
+              },
+              {
+                "lecName": "Creating Effective Layouts",
+                "lecDuration": "1.5 Hours"
+              },
+              {
+                "lecName": "Understanding Grid Systems",
+                "lecDuration": "1 Hour"
+              }
+            ]
+          },
+          {
+            "name": "Color Theory and Composition",
+            "lectures": [
+              {
+                "lecName": "Introduction to Color Theory",
+                "lecDuration": "1.5 Hours"
+              },
+              {
+                "lecName": "Using Color in Design",
+                "lecDuration": "1 Hour"
+              },
+              {
+                "lecName": "Composition Techniques",
+                "lecDuration": "1 Hour"
+              }
+            ]
+          },
+          {
+            "name": "Logo Design and Branding",
+            "lectures": [
+              {
+                "lecName": "Principles of Logo Design",
+                "lecDuration": "1.5 Hours"
+              },
+              {
+                "lecName": "Creating Brand Identity",
+                "lecDuration": "1.5 Hours"
+              },
+              {
+                "lecName": "Designing Marketing Collateral",
+                "lecDuration": "1 Hour"
+              }
+            ]
+          },
+          {
+            "name": "Digital Illustration Basics",
+            "lectures": [
+              {
+                "lecName": "Introduction to Digital Illustration Tools",
+                "lecDuration": "1 Hour"
+              },
+              {
+                "lecName": "Creating Vector Graphics",
+                "lecDuration": "1.5 Hours"
+              },
+              {
+                "lecName": "Understanding Image Formats",
+                "lecDuration": "1 Hour"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "courseInfo": {
+        "courseName": "Front-End Web Development Course",
+        "courseDesc": "Welcome to our Front-End Web Development course! This program will teach you the essential skills required to build interactive and responsive websites. From HTML and CSS basics to JavaScript programming and modern front-end frameworks, you'll learn everything you need to kickstart your career as a front-end developer. Below is an overview of the curriculum",
+        "sections": [
+          {
+            "name": "Introduction to Web Development",
+            "lectures": [
+              {
+                "lecName": "Overview of Front-End, Back-End, and Full-Stack Development",
+                "lecDuration": "1 Hour"
+              },
+              {
+                "lecName": "Understanding Client-Side vs. Server-Side",
+                "lecDuration": "1 Hour"
+              },
+              {
+                "lecName": "Setting Up Development Environment",
+                "lecDuration": "1 Hour"
+              }
+            ]
+          },
+          {
+            "name": "HTML and CSS Basics",
+            "lectures": [
+              {
+                "lecName": "Introduction to HTML Structure",
+                "lecDuration": "1.5 Hours"
+              },
+              {
+                "lecName": "Styling with CSS",
+                "lecDuration": "1.5 Hours"
+              },
+              {
+                "lecName": "Box Model and Layouts",
+                "lecDuration": "1 Hour"
+              }
+            ]
+          },
+          {
+            "name": "JavaScript Fundamentals",
+            "lectures": [
+              {
+                "lecName": "Introduction to JavaScript",
+                "lecDuration": "1.5 Hours"
+              },
+              {
+                "lecName": "Working with Variables and Data Types",
+                "lecDuration": "1 Hour"
+              },
+              {
+                "lecName": "DOM Manipulation and Event Handling",
+                "lecDuration": "1.5 Hours"
+              }
+            ]
+          },
+          {
+            "name": "Responsive Web Design",
+            "lectures": [
+              {
+                "lecName": "Understanding Responsive Design Principles",
+                "lecDuration": "1.5 Hours"
+              },
+              {
+                "lecName": "Media Queries and Flexbox",
+                "lecDuration": "1.5 Hours"
+              },
+              {
+                "lecName": "Introduction to CSS Grid",
+                "lecDuration": "1 Hour"
+              }
+            ]
+          },
+          {
+            "name": "Front-End Frameworks",
+            "lectures": [
+              {
+                "lecName": "Introduction to Bootstrap",
+                "lecDuration": "1.5 Hours"
+              },
+              {
+                "lecName": "Working with React.js",
+                "lecDuration": "2 Hours"
+              },
+              {
+                "lecName": "Vue.js Fundamentals",
+                "lecDuration": "2 Hours"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
